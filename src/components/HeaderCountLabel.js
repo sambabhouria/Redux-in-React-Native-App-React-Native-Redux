@@ -8,7 +8,7 @@ const HeaderCountLabel = (props) => {
   return (
     // eslint-disable-next-line react-native/no-inline-styles
     <Text style={{color: 'white', fontWeight: 'bold', padding: 10}}>
-      Bookmarked: {props.counter}
+      Bookmarked **: {props.counter}
     </Text>
   );
 };

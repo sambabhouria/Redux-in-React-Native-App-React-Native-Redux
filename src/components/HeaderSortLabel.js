@@ -11,7 +11,7 @@ const HeaderSortLabel = (props) => {
       // eslint-disable-next-line react-native/no-inline-styles
       style={{color: 'white', fontWeight: 'bold', padding: 10}}
       onPress={() => props.sortBookMarkList()}>
-      Sort: {props.sort}
+      Sort **: {props.sort}
     </Text>
   );
 };
