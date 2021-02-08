@@ -25,7 +25,6 @@ and how the state of the application is updated. It is made up of the following 
 5 . selector
  
 # Actions and Action Creators
-
 An action is a plain JavaScript object that has a type field and an optional payload. 
 It can also be thought of as an event that describes something that has happened.
 
